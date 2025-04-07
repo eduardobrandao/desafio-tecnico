@@ -1,4 +1,4 @@
-# desafio-tecnico-votacao
+# desafio-tecnico
 
 No cooperativismo, cada associado possui um voto e as decisões são tomadas em assembleias, por votação. 
 A partir disso, você precisa criar uma solução back-end para gerenciar essas sessões de votação.
@@ -23,16 +23,8 @@ Essa solução deve promover as seguintes funcionalidades através de uma API RE
 
 
 
-POST
-```bash
-
-```
-GET
-```bash
-
-```
-
-PUT
-```bash
-
-```
+## Desenvolvido
+- Criação de uma pauta
+- Após a criação da pauta, daí podemos entrar na votação da pauta.
+- Foi feito a validação de que cada associado só pode votar uma unica vez por pauta.
+- 
