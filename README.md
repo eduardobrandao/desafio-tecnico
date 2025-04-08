@@ -24,7 +24,17 @@ Essa solução deve promover as seguintes funcionalidades através de uma API RE
 
 
 ## Desenvolvido
-- Criação de uma pauta
+- Criação de uma pauta.
 - Após a criação da pauta, daí podemos entrar na votação da pauta.
 - Foi feito a validação de que cada associado só pode votar uma unica vez por pauta.
-- 
+
+##Passo a passo para testar a aplicação.
+- Depois de iniciar a aplicação acesse esse link do Swagger http://localhost:8080/swagger-ui/index.html.
+- Em seguida dê inicio criando uma pauta.
+- em seguida você pode votar SIM ou NÂO para a pauta.
+- Para saber se algumas validações estão acontecendo, tente votar novamente na mesma pauta, é para tomar um erro 500 no log vai estar descrito que você não pode votar duas vezes na mesma pauta
+
+
+  ## Pendente fazer:
+  - Teste unitário, (não se trata de justificativa, mais comecei a fazer muito tarde, e só conseguir fazer essa parte se tivesse mais tempo eu terminaria todas as tarefas bonus.
+  - Um README melhor, pois foi muito em cima da hora. 
